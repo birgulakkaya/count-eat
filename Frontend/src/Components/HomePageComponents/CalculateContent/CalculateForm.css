@@ -1,0 +1,33 @@
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center; /* Labeller ve inputları dikeyde hizalar */
+}
+
+.form-label {
+  color: #17522b;
+  font-family: "Work Sans-Black", Helvetica;
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 20px; /* Labellerin sağında biraz boşluk bırakır */
+  flex: 1;
+}
+
+.form-control {
+  /* Inputları esnek boyutlandırma, labellerden sonra gelen tüm boş alanı kaplar */
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Work Sans-Black", Helvetica;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.form-control:focus {
+  border-color: #17522b;
+}

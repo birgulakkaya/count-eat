@@ -1,0 +1,42 @@
+.active {
+  @apply text-orange-500 underline underline-offset-4;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #abd2b5;
+  color: white;
+}
+
+.pagination li.activerPagination {
+  background-color: #17532b;
+  border-radius: 4px;
+  color: white;
+}
+
+.active-button {
+  color: #fc3c1a;
+}

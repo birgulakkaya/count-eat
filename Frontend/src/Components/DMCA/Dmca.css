@@ -1,0 +1,25 @@
+.dmca-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-dmca {
+  display: flex;
+  padding: 30px 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 1000px;
+  margin-left: 250px;
+}
+
+.dmca-container li {
+  list-style-type: disc;
+  margin-top: 10px;
+  font-size: large;
+}
+
+.dmca-container ul {
+  margin-bottom: 20px;
+}

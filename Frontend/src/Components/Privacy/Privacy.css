@@ -1,0 +1,26 @@
+.privacy-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-privacy {
+  display: flex;
+  padding: 30px 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  width: 1000px;
+  margin-left: 250px;
+}
+
+.main-privacy ol {
+  list-style-type: lower-alpha;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+.main-privacy li {
+  margin-bottom: 10px;
+  font-size: large;
+}

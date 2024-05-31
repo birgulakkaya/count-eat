@@ -1,0 +1,258 @@
+.target-container {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper figure img {
+  width: 550px;
+  height: 460px;
+}
+.image-span {
+  font-style: italic;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-family: "Work Sans-Black", Helvetica;
+  margin-top: 50px;
+  color: #17532b;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  margin-bottom: 80px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.props {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.lets {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lets-article {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.create-account {
+  background-color: #6ded46;
+  border-radius: 10px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 25px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-account:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1) rotate(0deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .target-container {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse !important;
+    width: 100%;
+  }
+
+  .image-wrapper figure img {
+    width: 400px;
+    height: 420px;
+  }
+
+  .section-title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .props {
+    font-size: 22px;
+  }
+
+  .lets {
+    width: 100%;
+  }
+
+  .lets-article {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .target-container {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse !important;
+    width: 100%;
+  }
+
+  .image-wrapper figure img {
+    width: 340px;
+    height: 360px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .props {
+    font-size: 20px;
+  }
+
+  .lets {
+    width: 100%;
+  }
+
+  .lets-article {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .target-container {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse !important;
+    width: 100%;
+  }
+
+  .image-wrapper figure img {
+    width: 300px;
+    height: 320px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .props {
+    font-size: 20px;
+  }
+
+  .lets {
+    width: 100%;
+  }
+
+  .lets-article {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .target-container {
+    width: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse !important;
+    width: 100%;
+  }
+
+  .image-wrapper figure img {
+    width: 250px;
+    height: 260px;
+  }
+
+  .section-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .props {
+    font-size: 20px;
+  }
+
+  .lets {
+    width: 100%;
+  }
+
+  .lets-article {
+    font-size: 16px;
+    text-align: center;
+  }
+}

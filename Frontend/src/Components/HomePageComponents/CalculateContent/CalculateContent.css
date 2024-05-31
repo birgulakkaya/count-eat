@@ -1,0 +1,126 @@
+.calculate-section {
+  align-items: end;
+  justify-content: end;
+  display: flex !important;
+  background-image: url(../../../Assets/HomePageImages/CalculateImg/calculatebg.png);
+  background-size: cover; /* Arka plan görüntüsünün sabit boyutta kalmasını sağlar */
+  background-repeat: no-repeat; /* Arka plan görüntüsünün tekrar etmesini engeller */
+  background-position: center center; /* Arka plan görüntüsünü ortalar */
+}
+
+.calculate-main-div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.calculate-title {
+  color: #17522b;
+  font-family: "Work Sans-Black", Helvetica;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.description {
+  color: #17522b;
+  font-family: "Work Sans-Black", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  align-items: end;
+  justify-content: end;
+  width: 700px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.description b {
+  letter-spacing: 0.4px;
+  font-family: "Work Sans-Black", Helvetica;
+  font-weight: 900;
+}
+
+.arrow-desc {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-top: -100px;
+  height: 500px;
+}
+
+.arrow-desc p {
+  color: #17532b;
+  font-family: "Yellowtail-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.arrow-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100px;
+}
+
+.arrow {
+  position: relative;
+  display: block;
+  height: auto;
+  width: 150px;
+  z-index: 100;
+}
+
+.Calculate-Form {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.meal-plan {
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.meal-plan h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.recipe-item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.recipe-item:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,310 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main-alldiets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.AllDiets-Container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.category-diet {
+  padding-top: 20px;
+  width: 300px;
+  border-right: 2px solid #73a080;
+  color: #73a080;
+  justify-content: center;
+  display: flex;
+}
+
+.category-list {
+  display: block;
+  position: relative;
+}
+
+.category-diet li {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.category-diet li a {
+  color: #73a080;
+}
+
+.category-diet li a:visited {
+  color: #73a080;
+}
+
+.category-diet li:hover {
+  color: #17532b;
+}
+
+.sub-menu a {
+  color: #17532b;
+}
+
+.sub-menu a:visited {
+  color: #17532b;
+}
+
+.diet-articles-maindiv {
+  width: 900px;
+  padding: 30px;
+}
+
+.diet-title {
+  color: #17532b;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 800;
+  text-align: start;
+}
+
+.diet-information {
+  background-color: #eaedea;
+  border-left: 10px solid #17532b;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.ArticleandImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ArticleandImage p {
+  width: 600px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.ArticleandImage figure img {
+  border-radius: 50%;
+}
+
+.diet-articles-maindiv li {
+  list-style: disc;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.diet-article {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+
+.sub-menu li {
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.sub-menu li:hover {
+  border-left: 5px solid #17532b;
+  color: #17532b;
+  padding-left: 5px;
+}
+
+.category-diet ul li {
+  cursor: pointer;
+}
+
+.category-diet ul {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .AllDiets-Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .category-list > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .category-diet {
+    border: none;
+    border-bottom: 2px solid #73a080;
+    width: 100%;
+  }
+
+  .category-list > ul > li {
+    font-size: 14px;
+  }
+  .sub-menu li {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  .diet-articles-maindiv {
+    width: 100%;
+  }
+
+  .diet-title {
+    font-size: 30px;
+  }
+
+  .ArticleandImage {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .ArticleandImage > p {
+    width: 100%;
+  }
+
+  .diet-article {
+    font-size: 20px;
+  }
+
+  figure img {
+    border-radius: 50%;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AllDiets-Container {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .category-list > ul {
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+  }
+
+  .category-diet {
+    border: none;
+    border-bottom: 2px solid #73a080;
+    width: 100%;
+  }
+
+  .category-list > ul > li {
+    font-size: 14px;
+  }
+  .sub-menu li {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -10px;
+  }
+
+  .diet-articles-maindiv {
+    width: 100%;
+  }
+
+  .diet-title {
+    font-size: 30px;
+  }
+
+  .ArticleandImage {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .ArticleandImage > p {
+    width: 100%;
+  }
+
+  .diet-article {
+    font-size: 20px;
+  }
+
+  figure img {
+    border-radius: 50%;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .AllDiets-Container {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .category-list > ul {
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .category-diet {
+    border: none;
+    border-bottom: 2px solid #73a080;
+    width: 100%;
+  }
+
+  .category-list > ul > li {
+    font-size: 12px;
+  }
+  .sub-menu li {
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: -10px;
+  }
+
+  .diet-articles-maindiv {
+    width: 100%;
+  }
+
+  .diet-title {
+    font-size: 28px;
+  }
+
+  .ArticleandImage {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  .ArticleandImage > p {
+    width: 100%;
+  }
+
+  .diet-article {
+    font-size: 20px;
+  }
+
+  figure img {
+    border-radius: 50%;
+    width: 200px;
+  }
+}
